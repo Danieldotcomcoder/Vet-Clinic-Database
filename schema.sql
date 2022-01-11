@@ -9,3 +9,5 @@ CREATE TABLE animals (
     weight_Kg         decimal
 );
 
+ALTER TABLE animals
+ADD species varchar(50);

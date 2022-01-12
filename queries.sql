@@ -117,7 +117,7 @@ GROUP BY species
 
 SELECT * FROM animals
 JOIN owners ON animals.owner_id = owners.id
-WHERE animals.owner_id = (SELECT id from owners WHERE full_name='Jennifer Orwell');
+WHERE animals.owner_id = (SELECT id from owners WHERE full_name='Melody Pond');
 
 
 -- List of all animals that are pokemon (their type is Pokemon).
